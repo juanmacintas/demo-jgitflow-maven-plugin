@@ -104,10 +104,10 @@
 					<releaseBranchVersionSuffix>RC</releaseBranchVersionSuffix>
 					<flowInitContext>
 						<masterBranchName>master</masterBranchName>
-						<developBranchName>development</developBranchName>
-						<featureBranchPrefix>feature-</featureBranchPrefix>
-						<releaseBranchPrefix>release-</releaseBranchPrefix>
-						<hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
+						<developBranchName>develop</developBranchName>
+						<featureBranchPrefix>feature/</featureBranchPrefix>
+						<releaseBranchPrefix>release/</releaseBranchPrefix>
+						<hotfixBranchPrefix>hotfix/</hotfixBranchPrefix>
 					</flowInitContext>
 				</configuration>
 			</plugin>
