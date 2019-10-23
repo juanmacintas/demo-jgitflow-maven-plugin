@@ -94,6 +94,20 @@
     			<groupId>external.atlassian.jgitflow</groupId>
     			<artifactId>jgitflow-maven-plugin</artifactId>
     			<version>1.0-m5.1</version>
+    			<configuration>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+					<pushFeatures>true</pushFeatures>
+					<pushReleases>true</pushReleases>
+					<pushHotfixes>true</pushHotfixes>
+					<releaseBranchVersionSuffix>RC</releaseBranchVersionSuffix>
+					<flowInitContext>
+						<masterBranchName>master</masterBranchName>
+						<developBranchName>development</developBranchName>
+						<featureBranchPrefix>feature-</featureBranchPrefix>
+						<releaseBranchPrefix>release-</releaseBranchPrefix>
+						<hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
+					</flowInitContext>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
