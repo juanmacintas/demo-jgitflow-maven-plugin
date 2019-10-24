@@ -11,5 +11,10 @@ INSERT INTO LIBRO (id, titulo, descripcion, categoria, autor, editorial, favorit
 INSERT INTO LIBRO (id, titulo, descripcion, categoria, autor, editorial, favorite) values (7,'Frankenstein', 'Descripción de Frankenstein', 2, 1, 1, false);
 INSERT INTO LIBRO (id, titulo, descripcion, categoria, autor, editorial, favorite) values (8,'Carrie', 'Descripción de Carrie', 2, 1, 1, true);
 
+INSERT INTO LIBRO (id, titulo, descripcion, categoria, autor, editorial, favorite) values (9,'IT', 'Descripción de IT', 2, 1, 1, false);
+INSERT INTO LIBRO (id, titulo, descripcion, categoria, autor, editorial, favorite) values (10,'Insomnia', 'Descripción de Insomnia', 2, 1, 1, false);
+INSERT INTO LIBRO (id, titulo, descripcion, categoria, autor, editorial, favorite) values (11,'Misery', 'Descripción de Misery', 2, 1, 1, false);
+INSERT INTO LIBRO (id, titulo, descripcion, categoria, autor, editorial, favorite) values (12,'El Resplandor', 'Descripción de Insomnia', 2, 1, 1, false);
+
 
 
